@@ -1,5 +1,3 @@
-
-
 #include <iostream>
 
 using namespace std;
@@ -77,7 +75,7 @@ void drop(char player, int column, char table[6][7]){ //drops X and Os
 }
 int main()
 {
-    cout<<"Welcome to connect 4. Beat your opponent by having four blocks in the same row, column, or diagonals."
+    cout<<"Welcome to connect 4. Beat your opponent by having four blocks in the same row, column, or diagonals.";
     int column;
     int row;
     char table[6][7];
